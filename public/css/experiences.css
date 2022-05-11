@@ -1,0 +1,44 @@
+/* CSS files --> experiences.html */
+body{
+    background-color: #A5DEE5;
+}
+.table-menu{
+    width:100%; /* กว้าง 100 เปอร์เซ็นต์  */
+    text-align: center;/* ทำตัวหนังสือให้อยู่ตรงกลาง  */
+    background-color: #FEFDCA;/*กำหนดสีพื้นหลัง*/
+}
+h1{
+    text-align: center; /* ทำตัวหนังสือให้อยู่ตรงกลาง  */
+    font-family: cursive;/* กำหนดฟอนต์เป็น   cursive */
+    background-color: #E0F9B5;/*กำหนดสีพื้นหลัง*/
+} 
+h4{
+    text-align: center; /* ทำตัวหนังสือให้อยู่ตรงกลาง  */
+    font-family: Aclonica; /* ทำตัวหนังสือให้อยู่ตรงกลาง  */
+    font-weight: normal;
+}
+h5{ 
+    text-align: center; /* ทำตัวหนังสือให้อยู่ตรงกลาง  */
+    font-family: Aclonica; /* กำหนดฟอนต์เป็น  Aclonica */
+    font-weight: normal;/* กำหนดฟอนต์เป็นปกติ */
+}
+.table-content{
+    margin-left: auto; /*การเลื่อนตำแหน่ง ของวัตถุ ไปตามที่เรากำหนด ทางซ้าย แบบ auto*/
+    margin-right: auto;/*การเลื่อนตำแหน่ง ของวัตถุ ไปตามที่เรากำหนด ทางขวา แบบ auto*/
+    background-color: #FEFDCA; /*กำหนดสีพื้นหลัง*/
+}
+.ul-circle{
+    list-style-type:circle; /*วงกลมหน้าตัวหนังสือ*/
+    background-color: #FFCFDF;/*กำหนดสีพื้นหลัง*/
+} 
+.ul-disc{
+    list-style-type:disc;/*สีเหลี่ยมหน้าตัวหนังสือ*/
+    background-color: #FFCFDF;/*กำหนดสีพื้นหลัง*/
+}
+.ul-square{
+    list-style-type:square;/*สี่เหลี่ยมหน้าตัวหนังสือ*/
+    background-color: #FFCFDF;/*กำหนดสีพื้นหลัง*/
+}
+.ol-order{
+    background-color: #FFCFDF;/*กำหนดสีพื้นหลัง*/
+}

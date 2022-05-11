@@ -1,0 +1,33 @@
+/* CSS files --> abilities.html */
+body{
+    background-color: #A5DEE5;/* ทำสีพื้นหลังของตัว body */
+}
+.table-menu{
+    width:100%;  /* กว้าง 100 เปอร์เซ็นต์  */
+    text-align: center; /* ทำตัวหนังสือให้อยู่ตรงกลาง  */
+    background-color: #FEFDCA; /* ทำสีพื้นหลังของตัว table-menu  */
+} 
+h1{
+    text-align: center; /* ทำตัวหนังสือให้อยู่ตรงกลาง  */
+    font-family: cursive; /* กำหนดฟอนต์เป็น  cursive */
+    background-color: #E0F9B5;/* ทำสีพื้นหลังของตัว h1  */
+} 
+h4{
+    text-align: center; /* ทำตัวหนังสือให้อยู่ตรงกลาง  */
+    font-family: Aclonica; /* กำหนดฟอนต์เป็น  Aclonica */
+    font-weight: normal;
+}
+h5{ 
+    text-align: center; /* ทำตัวหนังสือให้อยู่ตรงกลาง  */
+    font-family: Aclonica; /* กำหนดฟอนต์เป็น  Aclonica */
+    font-weight: normal;
+}
+h2{ 
+    text-align: center;/* ทำตัวหนังสือให้อยู่ตรงกลาง  */
+    background-color: #FFCFDF;/* ทำสีพื้นหลังของตัว h2  */
+} 
+.table-skills{
+    margin-left: auto; /*การเลื่อนตำแหน่ง ของวัตถุ ไปตามที่เรากำหนด ทางซ้าย แบบ auto*/
+    margin-right: auto; /*การเลื่อนตำแหน่ง ของวัตถุ ไปตามที่เรากำหนด ทางขวา แบบ auto*/
+    background-color: #FEFDCA;/* ทำสีพื้นหลังของตัว table-skills  */
+}

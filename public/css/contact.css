@@ -1,0 +1,14 @@
+/* CSS files --> contact.html */
+body{
+    background-color: #A5DEE5; /* ทำสีพื้นหลังของตัว body */
+}
+table{
+    width:100%; /* กว้าง 100 เปอร์เซ็นต์  */
+    text-align: center; /* ทำตัวหนังสือให้อยู่ตรงกลาง  */
+    background-color: #FEFDCA;/* ทำสีพื้นหลังของตัว table  */
+}
+h1{
+    text-align: center; /* ทำตัวหนังสือให้อยู่ตรงกลาง  */
+    font-family: cursive;
+    background-color: #E0F9B5;/* ทำสีพื้นหลังของตัว h1  */
+}

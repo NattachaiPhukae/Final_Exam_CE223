@@ -1,0 +1,74 @@
+/* CSS file --> index.html */
+/* (1) Tag Selector */
+body{
+    background-color: #000000;/*เปลี่ยนพื้นหลัง*/
+}
+h1{
+    text-align: center;/* ทำตัวหนังสือให้อยู่ตรงกลาง  */
+    font-family: cursive;/* กำหนดฟอนต์เป็น  cursive */
+    /*background-color: #FCE38A;*/
+}
+h2{
+    text-align: center;/* ทำตัวหนังสือให้อยู่ตรงกลาง  */
+    font-family: cursive;/* กำหนดฟอนต์เป็น  cursive */
+    font-weight: normal;
+    /*background-color: #EAFFD0;*/
+}
+h4{
+    text-align: center;/* ทำตัวหนังสือให้อยู่ตรงกลาง  */
+    font-family: Aclonica;/* กำหนดฟอนต์เป็น  Aclonica */
+    font-weight: normal;
+}
+table{
+    width: 100%;/* กว้าง 100 เปอร์เซ็นต์  */
+    text-align: center;/* ทำตัวหนังสือให้อยู่ตรงกลาง  */
+}
+th{
+    width: 33.33%; 
+    vertical-align: top;
+}
+/* (2) Class Selector */
+.p-Aboutme{
+    font-weight: normal; /* ทำให้ความกว้างของหนังสือเป็นปกติ*/
+    text-align: justify;/* ทำให้การจัดตัวหนังสือเป็นแบบ justify*/
+    color: rgb(255, 255, 255);
+}
+.p-Name{
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+.p-Footer{
+    text-align: center;/* ทำตัวหนังสือให้อยู่ตรงกลาง  */
+}
+.name{
+    text-decoration: underline;/* ทำตัวหนังสือมีเส้นใต้  */
+    color: rgb(255, 255, 255);/*กำหนดสีตัวหนังสือ*/
+    background-color: rgba(146, 235, 73, 0);/*กำหนดสีพื้นหลัง*/
+}
+/* (3) Id Selector */
+#th-Details{
+    text-align: left;/* ทำตัวหนังสือให้อยู่ตรงซ้าย  */
+    color: rgb(255, 255, 255);/*กำหนดสีตัวหนังสือ*/
+}
+
+/* div */
+.top-container{
+    background-color: orange; /* ทำสีพื้นหลังชอง top-container  */
+}
+.table-menu td:hover{/* ทำให้ตัว table-menu มีลูกเล่นเพิ่ม  transition: 0.5s*/
+    background-color: #ff7300;/*กำหนดสีพื้นหลัง*/
+    transition: 0.5s; 
+}
+/* ทำสีพื้นหลังให้ตัว table-content h2   */
+.table-content h2{
+    background-color: rgb(255, 230, 0);/*กำหนดสีพื้นหลัง*/
+}
+ /* ทำให้ตัว table-content มีลูกเล่นเพิ่ม  */
+.table-content img:hover{
+    background-color: rgb(238, 172, 51);/*กำหนดสีพื้นหลัง*/
+    transition: 0.5s
+}
+/* ทำสีพื้นหลังให้ตัว table-menu   */
+.table-menu{ 
+    background-color: #e0d14b; /*กำหนดสีพื้นหลัง*/
+}
